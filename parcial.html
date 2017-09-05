@@ -1,0 +1,67 @@
+<html>
+<head>
+<meta charset="utf-8"> 
+	<title>UNISIMON</title> 
+</head> 
+<body background ="imagenes/fondo.jpg" style="background-repeat: no-repeat;
+    background-size: 100% 100%; " >
+
+	<H1 style="font-size: 50px; color: #2312EE"> INSCRIPCION A LA INGENIERIA 	</H1>
+	<form ACTION="procesa.php" METHOD="GET"> 
+	    <label style="font-size: 20px; color: #2312EE">
+	    	Introduzca su nombre: <BR>	    	
+	    </label>
+		<INPUT TYPE="text" NAME="nombre" placeholder='Nombre' required><BR> <BR>
+		 <label style="font-size: 20px; color: #2312EE">
+		 	Introduzca su documento: <BR>
+		 </label>
+		<INPUT TYPE="text" NAME="documento" placeholder='Documento' required><BR><BR>
+		 <label style="font-size: 20px; color: #2312EE">
+		 	Introduzca su puntaje ICFES: <BR>
+		 </label>
+		<INPUT TYPE="text" NAME="puntaje" placeholder='Puntaje ICFES' required><BR><BR>
+         <label style="font-size: 20px; color: #2312EE">
+         	Introdustca sus ingresos anuales: <BR>
+         </label>
+		<INPUT TYPE="text" NAME="ingreso" placeholder='Ingreso' required><BR><BR>
+
+<label style="font-size: 20px; color: #2312EE">
+	Seleccione su  carrera
+	<BR>
+</label>
+			<select name= 'carrera'>
+				<option value="0">
+					Seleccione el indicador de la carrera
+				</option>
+				<option value="1">
+					Ingeniería de Minas 
+				</option>
+				<option value="2">
+					Ingeniería Mecánica 
+				</option>
+				<option value="3">
+					Ingeniería Producción Industrial
+				</option>
+				<option value="4">
+					Ingeniería Civil
+				</option>
+				<option value="5">
+					Ingeniería Electromecánica
+				</option>
+				<option value="6">
+					Ingeniería Electrónica
+				</option>
+				<option value="7">
+					Ingeniería de Sistemas 
+				</option>
+			</select>
+<BR><BR><BR><BR>
+<BR><BR><BR><BR>
+
+
+		
+	<INPUT TYPE = 'submit' name='VALIDAR'>
+
+	</form>
+</body> 
+</html>
